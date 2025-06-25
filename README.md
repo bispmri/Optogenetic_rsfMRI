@@ -6,7 +6,7 @@
 2. FASTR: https://fsl.fmrib.ox.ac.uk/eeglab/fmribplugin/
 3. EEGLAB: https://sccn.ucsd.edu/eeglab/
 4. spm12: https://www.fil.ion.ucl.ac.uk/spm/software/spm12/
-5. DPABI： https://rfmri.org/DPABI/
+5. DPABI: https://rfmri.org/DPABI/
 
 ## HMM Models
 
