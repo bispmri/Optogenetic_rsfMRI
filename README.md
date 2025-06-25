@@ -1,4 +1,4 @@
-<h2 align="center">Data analyses for project:" Brain-wide Resting-state fMRI Network Dynamics Elicited by Activation of Single Thalamic Input"
+<h2 align="center">Data analyses for project: "Brain-wide Resting-state fMRI Network Dynamics Elicited by Activation of Single Thalamic Input"
 	
 ## Essential toolboxes
 
@@ -8,12 +8,16 @@
 4. spm12: https://www.fil.ion.ucl.ac.uk/spm/software/spm12/
 5. DPABI： https://rfmri.org/DPABI/
 
-## HMM models
+## HMM Models
 
 We provide the HMM model trained on rsfMRI data from both OG– (n = 17, 90 trials) and OG+ (n = 11, 102 trials) conditions, saved as “Gamma_18_PCA70%.mat” and “hmm_18_PCA70%.mat”. This model was trained using PCA-reduced input, retaining 70% variance, and identified 18 hidden states.
 
 The model was then applied to OG– and OG+ datasets separately, with the resulting state estimates saved as “Gamma_18_PCA70%_RS.mat” and “hmm_18_PCA70%_RS.mat” for OG–, and “Gamma_18_PCA70%_allOG.mat” and “hmm_18_PCA70%_allOG.mat” for OG+.
 
-## HMM analysis codes
+## HMM Analysis Codes
 
 We provide the custom software codes used for HMM model training and estimation, computation and visualization of the state transition space, state decomposition, and generation of substate voxel-wise activation maps (without statistical thresholding). These procedures are implemented in the main script “Main_HMM_MAR.m”.
+
+## Data for Figures in the Manuscript
+
+We provide the source data for the line graphs, bar charts, and matrices presented in the main figures, including those depicting HMM-derived state probability profiles, state characteristics, state transition matrices, and transition properties, as well as state-aligned electrophysiological spectrograms and power fluctuations.
